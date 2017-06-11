@@ -227,7 +227,7 @@
 %% 封面页
 \newcommand\zhtitle[1]{\def\nuaa@value@zhtitle{#1}}
 \newcommand\entitle[1]{\def\nuaa@value@entitle{#1}}
-\renewcommand\author[1]{\def\nuaa@value@author{#1}}
+%\renewcommand\author[1]{\def\nuaa@value@author{#1}}
 \newcommand\studentid[1]{\def\nuaa@value@studentid{#1}}
 \newcommand\college[1]{\def\nuaa@value@college{#1}}
 \newcommand\major[1]{\def\nuaa@value@major{#1}}
@@ -315,7 +315,7 @@
   \hypersetup{pdfkeywords={\@keywords}}
   \phantomsection
   \addcontentsline{toc}{chapter}{\nuaa@abstractname}
-  \chapter*{\erhao\nuaa@value@zhtitle\vskip 20pt\xiaosanhao\nuaa@abstractname}
+  \chapter*{\xiaosanhao\nuaa@abstractname}
   \setcounter{page}{1}
 }{%
   \par
